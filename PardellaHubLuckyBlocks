@@ -71,7 +71,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.494662076, 0, 0.497579992, 0)
 TextLabel.Size = UDim2.new(1, -5, 0.938905358, -5)
 TextLabel.Font = Enum.Font.GothamSemibold
-TextLabel.Text = "Lucky Block Battles"
+TextLabel.Text = "Lucky Block Battlegrounds"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
 
