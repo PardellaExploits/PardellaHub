@@ -169,6 +169,7 @@ ESPExecuteButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
 ESPExecuteButton.ScaleType = Enum.ScaleType.Slice
 ESPExecuteButton.SliceCenter = Rect.new(8, 8, 248, 248)
 ESPExecuteButton.MouseButton1Click:connect(function()
+    while true do
     local gui = Instance.new("BillboardGui");
 gui.Name = "";
 gui.AlwaysOnTop = true;
@@ -188,6 +189,8 @@ for _, v in pairs(game:GetService("Players"):GetPlayers()) do
     if v.Name ~= game:GetService("Players").LocalPlayer.Name and v.Character and v.Character:FindFirstChild("Head") then
         gui:Clone().Parent = v.Character.Head;
     end
+end
+    wait(15)
 end
 end)
 
