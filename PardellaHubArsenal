@@ -199,7 +199,7 @@ ESPLabel.Position = UDim2.new(1.20146894, 0, 0.1875, 0)
 ESPLabel.Size = UDim2.new(0, 44, 0, 26)
 ESPLabel.Font = Enum.Font.GothamBold
 ESPLabel.Text = "ESP"
-ESPLabel.TextColor3 = Color3.fromRGB(91, 91, 91)
+ESPLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 ESPLabel.TextSize = 17.000
 
 AimbotExecuteButton.Name = "AimbotExecuteButton"
@@ -209,7 +209,7 @@ AimbotExecuteButton.BackgroundTransparency = 1.000
 AimbotExecuteButton.Position = UDim2.new(0.0391209498, 0, 0.670074522, 0)
 AimbotExecuteButton.Size = UDim2.new(0, 32, 0, 32)
 AimbotExecuteButton.Image = "rbxassetid://2790389767"
-AimbotExecuteButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+AimbotExecuteButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
 AimbotExecuteButton.ScaleType = Enum.ScaleType.Slice
 AimbotExecuteButton.SliceCenter = Rect.new(8, 8, 248, 248)
 AimbotExecuteButton.MouseButton1Click:connect(function()
@@ -229,7 +229,7 @@ AimbotLabel.Position = UDim2.new(1, 0, 0.09375, 0)
 AimbotLabel.Size = UDim2.new(0, 78, 0, 26)
 AimbotLabel.Font = Enum.Font.GothamBold
 AimbotLabel.Text = "Aimbot"
-AimbotLabel.TextColor3 = Color3.fromRGB(91, 91, 91)
+AimbotLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 AimbotLabel.TextSize = 17.000
 
 WallbangExecuteButton.Name = "WallbangExecuteButton"
@@ -239,7 +239,7 @@ WallbangExecuteButton.BackgroundTransparency = 1.000
 WallbangExecuteButton.Position = UDim2.new(0.0391209498, 0, 0.376423776, 0)
 WallbangExecuteButton.Size = UDim2.new(0, 32, 0, 32)
 WallbangExecuteButton.Image = "rbxassetid://2790389767"
-WallbangExecuteButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+WallbangExecuteButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
 WallbangExecuteButton.ScaleType = Enum.ScaleType.Slice
 WallbangExecuteButton.SliceCenter = Rect.new(8, 8, 248, 248)
 WallbangExecuteButton.MouseButton1Click:connect(function()
@@ -255,7 +255,7 @@ WallbangLabel.Position = UDim2.new(1.21875, 0, 0.09375, 0)
 WallbangLabel.Size = UDim2.new(0, 78, 0, 26)
 WallbangLabel.Font = Enum.Font.GothamBold
 WallbangLabel.Text = "Wallbang"
-WallbangLabel.TextColor3 = Color3.fromRGB(91, 91, 91)
+WallbangLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 WallbangLabel.TextSize = 17.000
 
 SilentaimExecuteButton.Name = "SilentaimExecuteButton"
@@ -265,7 +265,7 @@ SilentaimExecuteButton.BackgroundTransparency = 1.000
 SilentaimExecuteButton.Position = UDim2.new(0.579443574, 0, 0.0986459851, 0)
 SilentaimExecuteButton.Size = UDim2.new(0, 32, 0, 32)
 SilentaimExecuteButton.Image = "rbxassetid://2790389767"
-SilentaimExecuteButton.ImageColor3 = Color3.fromRGB(255, 0, 0)
+SilentaimExecuteButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
 SilentaimExecuteButton.ScaleType = Enum.ScaleType.Slice
 SilentaimExecuteButton.SliceCenter = Rect.new(8, 8, 248, 248)
 SilentaimExecuteButton.MouseButton1Click:connect(function()
@@ -280,7 +280,7 @@ SilentaimLabel.Position = UDim2.new(1.21875, 0, 0.09375, 0)
 SilentaimLabel.Size = UDim2.new(0, 78, 0, 26)
 SilentaimLabel.Font = Enum.Font.GothamBold
 SilentaimLabel.Text = "Silent Aim"
-SilentaimLabel.TextColor3 = Color3.fromRGB(91, 91, 91)
+SilentaimLabel.TextColor3 = Color3.fromRGB(225, 225, 225)
 SilentaimLabel.TextSize = 17.000
 
 -- Scripts:
