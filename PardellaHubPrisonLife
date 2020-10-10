@@ -24,7 +24,7 @@ local SilentAimLabel = Instance.new("TextLabel")
 --Properties:
 
 PardellaHubPrisonLife.Name = "PardellaHubPrisonLife"
-PardellaHubPrisonLife.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PardellaHubPrisonLife.Parent = game.CoreGUI
 PardellaHubPrisonLife.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 StartFrame.Name = "StartFrame"
