@@ -1,0 +1,324 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local PardellaHubPhantomForces = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Frame = Instance.new("ImageButton")
+local Frame_2 = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local MainTab = Instance.new("ImageButton")
+local RainbowGunButton = Instance.new("ImageButton")
+local RainbowGunLabel = Instance.new("TextLabel")
+local InfAmmo = Instance.new("ImageButton")
+local InfAmmoLabel = Instance.new("TextLabel")
+local ESPButton = Instance.new("ImageButton")
+local ESPLabel = Instance.new("TextLabel")
+local SilentAimButton = Instance.new("ImageButton")
+local SilentAimLabel = Instance.new("TextLabel")
+local MainButton = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local StartFrame = Instance.new("Frame")
+local BackFrame = Instance.new("ImageButton")
+local ClickButton = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+PardellaHubPhantomForces.Name = "PardellaHubPhantomForces"
+PardellaHubPhantomForces.Parent = game.CoreGui
+PardellaHubPhantomForces.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = PardellaHubPhantomForces
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.0173046719, 0, 0.0485519655, 0)
+Main.Size = UDim2.new(0, 413, 0, 197)
+Main.Visible = false
+
+Frame.Name = "Frame"
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(-0.00763848331, 0, 0.00509959925, 0)
+Frame.Size = UDim2.new(0, 413, 0, 194)
+Frame.Image = "rbxassetid://2790389767"
+Frame.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(8, 8, 248, 248)
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(-0.000374560797, 0, -0.00397520931, 0)
+Frame_2.Size = UDim2.new(0, 413, 0, 23)
+Frame_2.Image = "rbxassetid://2790389767"
+Frame_2.ImageColor3 = Color3.fromRGB(50, 50, 50)
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(8, 8, 248, 248)
+
+TextLabel.Parent = Frame
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.128835067, 0, 0.0612570941, 0)
+TextLabel.Size = UDim2.new(0.239709496, -5, 0.135371789, -5)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Pardella Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+MainTab.Name = "MainTab"
+MainTab.Parent = Frame
+MainTab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MainTab.BackgroundTransparency = 1.000
+MainTab.Position = UDim2.new(0.0485197753, 0, 0.268041223, 0)
+MainTab.Size = UDim2.new(0, 372, 0, 126)
+MainTab.Image = "rbxassetid://2790389767"
+MainTab.ImageColor3 = Color3.fromRGB(50, 50, 50)
+MainTab.ScaleType = Enum.ScaleType.Slice
+MainTab.SliceCenter = Rect.new(8, 8, 248, 248)
+
+RainbowGunButton.Name = "RainbowGunButton"
+RainbowGunButton.Parent = MainTab
+RainbowGunButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+RainbowGunButton.BackgroundTransparency = 1.000
+RainbowGunButton.Position = UDim2.new(0.0391209498, 0, 0.0748364553, 0)
+RainbowGunButton.Size = UDim2.new(0, 32, 0, 32)
+RainbowGunButton.Image = "rbxassetid://2790389767"
+RainbowGunButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
+RainbowGunButton.ScaleType = Enum.ScaleType.Slice
+RainbowGunButton.SliceCenter = Rect.new(8, 8, 248, 248)
+RainbowGunButton.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/3aKUrGRF'))()
+end)
+
+RainbowGunLabel.Name = "RainbowGunLabel"
+RainbowGunLabel.Parent = RainbowGunButton
+RainbowGunLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RainbowGunLabel.BackgroundTransparency = 1.000
+RainbowGunLabel.Position = UDim2.new(2.32646894, 0, 0.09375, 0)
+RainbowGunLabel.Size = UDim2.new(0, 44, 0, 26)
+RainbowGunLabel.Font = Enum.Font.GothamBold
+RainbowGunLabel.Text = "Rainbow Gun"
+RainbowGunLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+RainbowGunLabel.TextSize = 17.000
+
+InfAmmo.Name = "InfAmmo"
+InfAmmo.Parent = MainTab
+InfAmmo.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+InfAmmo.BackgroundTransparency = 1.000
+InfAmmo.Position = UDim2.new(0.0391209498, 0, 0.376423776, 0)
+InfAmmo.Size = UDim2.new(0, 32, 0, 32)
+InfAmmo.Image = "rbxassetid://2790389767"
+InfAmmo.ImageColor3 = Color3.fromRGB(91, 91, 91)
+InfAmmo.ScaleType = Enum.ScaleType.Slice
+InfAmmo.SliceCenter = Rect.new(8, 8, 248, 248)
+InfAmmo.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/zQgwYCpR'))()
+end)
+
+InfAmmoLabel.Name = "InfAmmoLabel"
+InfAmmoLabel.Parent = InfAmmo
+InfAmmoLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfAmmoLabel.BackgroundTransparency = 1.000
+InfAmmoLabel.Position = UDim2.new(1.84375, 0, 0.09375, 0)
+InfAmmoLabel.Size = UDim2.new(0, 84, 0, 26)
+InfAmmoLabel.Font = Enum.Font.GothamBold
+InfAmmoLabel.Text = "Infinite Ammo"
+InfAmmoLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfAmmoLabel.TextSize = 17.000
+
+ESPButton.Name = "ESPButton"
+ESPButton.Parent = MainTab
+ESPButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ESPButton.BackgroundTransparency = 1.000
+ESPButton.Position = UDim2.new(0.0391209498, 0, 0.67801106, 0)
+ESPButton.Size = UDim2.new(0, 32, 0, 32)
+ESPButton.Image = "rbxassetid://2790389767"
+ESPButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
+ESPButton.ScaleType = Enum.ScaleType.Slice
+ESPButton.SliceCenter = Rect.new(8, 8, 248, 248)
+ESPButton.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Fa0MZ2gc'))()
+end)
+
+ESPLabel.Name = "ESPLabel"
+ESPLabel.Parent = ESPButton
+ESPLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPLabel.BackgroundTransparency = 1.000
+ESPLabel.Position = UDim2.new(1.29869127, 0, 0.09375, 0)
+ESPLabel.Size = UDim2.new(0, 41, 0, 26)
+ESPLabel.Font = Enum.Font.GothamBold
+ESPLabel.Text = "ESP"
+ESPLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESPLabel.TextSize = 17.000
+
+SilentAimButton.Name = "SilentAimButton"
+SilentAimButton.Parent = MainTab
+SilentAimButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+SilentAimButton.BackgroundTransparency = 1.000
+SilentAimButton.Position = UDim2.new(0.5631935, 0, 0.0670634955, 0)
+SilentAimButton.Size = UDim2.new(0, 32, 0, 32)
+SilentAimButton.Image = "rbxassetid://2790389767"
+SilentAimButton.ImageColor3 = Color3.fromRGB(91, 91, 91)
+SilentAimButton.ScaleType = Enum.ScaleType.Slice
+SilentAimButton.SliceCenter = Rect.new(8, 8, 248, 248)
+SilentAimButton.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/9L3kPWmf'))()
+end)
+
+SilentAimLabel.Name = "SilentAimLabel"
+SilentAimLabel.Parent = SilentAimButton
+SilentAimLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAimLabel.BackgroundTransparency = 1.000
+SilentAimLabel.Position = UDim2.new(1.25, 0, 0.09375, 0)
+SilentAimLabel.Size = UDim2.new(0, 84, 0, 26)
+SilentAimLabel.Font = Enum.Font.GothamBold
+SilentAimLabel.Text = "Silent Aim"
+SilentAimLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAimLabel.TextSize = 17.000
+
+MainButton.Name = "MainButton"
+MainButton.Parent = Frame
+MainButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MainButton.BackgroundTransparency = 1.000
+MainButton.Position = UDim2.new(0.0485197715, 0, 0.19205609, 0)
+MainButton.Size = UDim2.new(0, 64, 0, 24)
+MainButton.Image = "rbxassetid://2790389767"
+MainButton.ImageColor3 = Color3.fromRGB(50, 50, 50)
+MainButton.ScaleType = Enum.ScaleType.Slice
+MainButton.SliceCenter = Rect.new(8, 8, 248, 248)
+
+TextLabel_2.Parent = MainButton
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0173611641, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 62, 0, 17)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Main"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 10.000
+
+StartFrame.Name = "StartFrame"
+StartFrame.Parent = PardellaHubPhantomForces
+StartFrame.Active = true
+StartFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StartFrame.BackgroundTransparency = 1.000
+StartFrame.Position = UDim2.new(0.404794872, 0, 0.429343969, 0)
+StartFrame.Size = UDim2.new(0, 363, 0, 145)
+
+BackFrame.Name = "BackFrame"
+BackFrame.Parent = StartFrame
+BackFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+BackFrame.BackgroundTransparency = 1.000
+BackFrame.Position = UDim2.new(-0.00246948586, 0, -0.00577452127, 0)
+BackFrame.Size = UDim2.new(0, 362, 0, 145)
+BackFrame.Image = "rbxassetid://2790390993"
+BackFrame.ImageColor3 = Color3.fromRGB(35, 35, 35)
+BackFrame.ScaleType = Enum.ScaleType.Slice
+BackFrame.SliceCenter = Rect.new(16, 16, 240, 240)
+
+ClickButton.Name = "ClickButton"
+ClickButton.Parent = StartFrame
+ClickButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ClickButton.BackgroundTransparency = 1.000
+ClickButton.Position = UDim2.new(0.0453758538, 0, 0.253871083, 0)
+ClickButton.Size = UDim2.new(0, 329, 0, 91)
+ClickButton.Image = "rbxassetid://2790389767"
+ClickButton.ImageColor3 = Color3.fromRGB(45, 45, 45)
+ClickButton.ScaleType = Enum.ScaleType.Slice
+ClickButton.SliceCenter = Rect.new(8, 8, 248, 248)
+
+TextLabel_3.Parent = ClickButton
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.494662076, 0, 0.497579992, 0)
+TextLabel_3.Size = UDim2.new(1, -5, 0.938905358, -5)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Phantom Forces"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+
+TextLabel_4.Parent = ClickButton
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.19663167, 0, -0.172949553, 0)
+TextLabel_4.Size = UDim2.new(1, -5, 0.380434781, -5)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Pardella Hub"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+
+-- Scripts:
+
+local function PXCEBI_fake_script() -- TextLabel_3.Rainbower 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(PXCEBI_fake_script)()
+local function SRYA_fake_script() -- ClickButton.LocalScript 
+	local script = Instance.new('LocalScript', ClickButton)
+
+	local MainWatermark = script.Parent.Parent.BackFrame
+	local ClickButton = script.Parent.Parent.ClickButton
+	local main = script.Parent.Parent.Parent.Main
+	local close = script.Parent.Parent.Parent.StartFrame
+	
+	local button = script.Parent
+	local toggled = false
+	
+	local function onButtonActivated()
+		for i = 0, 1, .1 do
+			MainWatermark.ImageTransparency = i
+			ClickButton.Visible = false;
+			wait()
+			
+		end
+		wait(3)
+		main.Visible = true;
+		close:Destroy()
+	end
+	
+	
+	button.Activated:Connect(onButtonActivated)
+	
+end
+coroutine.wrap(SRYA_fake_script)()
