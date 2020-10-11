@@ -28,7 +28,7 @@ local TextLabel_4 = Instance.new("TextLabel")
 --Properties:
 
 PardellaHubRagdollEngine.Name = "PardellaHubRagdollEngine"
-PardellaHubRagdollEngine.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PardellaHubRagdollEngine.Parent = game.CoreGui
 PardellaHubRagdollEngine.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 StartFrame.Name = "StartFrame"
